@@ -1,0 +1,21 @@
+# view AndroidManifest.xml #generated:25
+-keep class com.example.courseprofiles.CourseProfileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:27
+-keep class com.example.courseprofiles.GCMIntentService { <init>(...); }
+
+# view AndroidManifest.xml #generated:14
+-keep class com.example.courseprofiles.MainActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:39
+-keep class com.example.courseprofiles.RegisterActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:23
+-keep class com.example.courseprofiles.RegistrationActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:21
+-keep class com.example.courseprofiles.StudentProfileActivity { <init>(...); }
+
+# view AndroidManifest.xml #generated:28
+-keep class com.google.android.gcm.GCMBroadcastReceiver { <init>(...); }
+
