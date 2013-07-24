@@ -30,6 +30,10 @@
             android:name="com.example.courseprofiles.RegistrationActivity"
             android:label="@string/title_activity_registration" >
         </activity>
+        <activity
+            android:name="com.example.courseprofiles.CourseProfileActivity"
+            android:label="@string/title_activity_course_profile" >
+        </activity>
     </application>
 
 </manifest>

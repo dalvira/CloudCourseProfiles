@@ -20,5 +20,13 @@
     <string name="firstname">first name</string>
     <string name="lastname">last name</string>
     <string name="confirmpassword">confirm password</string>
-            
+    <string name="title_activity_course_profile">CourseProfileActivity</string>
+    <string name="coursename">Course Name</string>
+    <string name="professor">Professor</string>
+    <string name="semester">Semester</string>
+    <string name="addassignment">+ Add Assignment</string>
+    <string name="addquiz">+ Add Quiz</string>
+    <string name="addexam">+ Add Exam</string>
+    <string name="addproject">+ Add Project</string>
+
 </resources>

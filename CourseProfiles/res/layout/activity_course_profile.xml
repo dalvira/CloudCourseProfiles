@@ -7,8 +7,8 @@
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
     android:orientation="vertical"
-    tools:context=".StudentProfileActivity" >
-
+    tools:context=".CourseProfileActivity" >
+    
     <ScrollView
         android:id="@+id/scrollView1"
         android:layout_width="match_parent"
@@ -20,10 +20,10 @@
             android:orientation="vertical" >
 
             <TextView
-                android:id="@+id/studentNameView"
+                android:id="@+id/courseNameView"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/studentName"
+                android:text="@string/coursename"
                 android:textAppearance="?android:attr/textAppearanceMedium" />
 
             <LinearLayout
@@ -31,26 +31,47 @@
                 android:layout_height="wrap_content" >
 
                 <TextView
-                    android:id="@+id/schoolView"
+                    android:id="@+id/professorView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/school"
+                    android:text="@string/professor"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
 
                 <TextView
-                    android:id="@+id/majorView"
+                    android:id="@+id/semesterView"
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:text="@string/major"
+                    android:text="@string/semester"
                     android:textAppearance="?android:attr/textAppearanceSmall" />
             </LinearLayout>
 
             <Button
-                android:id="@+id/addCourseBtn"
+                android:id="@+id/addAssnBtn"
                 style="?android:attr/buttonStyleSmall"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="@string/addcourse" />
+                android:text="@string/addassignment" />
+
+            <Button
+                android:id="@+id/addQuizBtn"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addquiz" />
+
+            <Button
+                android:id="@+id/addExamBtm"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addexam" />
+
+            <Button
+                android:id="@+id/addProjectBtn"
+                style="?android:attr/buttonStyleSmall"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/addproject" />
 
         </LinearLayout>
     </ScrollView>
