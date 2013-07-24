@@ -39,7 +39,6 @@
         android:ems="10"
         android:inputType="textEmailAddress" >
 
-        <requestFocus />
     </EditText>
 
     <EditText

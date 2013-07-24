@@ -7,9 +7,13 @@ import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
+import android.widget.TextView;
 
 public class StudentProfileActivity extends Activity {
 	
+	private TextView studentName;
+	private TextView school;
+	private TextView major;
 	private Button addCourse;
 
 	@Override
@@ -17,6 +21,9 @@ public class StudentProfileActivity extends Activity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_student_profile);
 		
+		studentName = (TextView) findViewById(R.id.studentNameView);
+		school = (TextView) findViewById(R.id.schoolView);
+		major = (TextView) findViewById(R.id.majorView);
 		addCourse = (Button) findViewById(R.id.addCourseBtn);
 		
 		//OnClickListener for Add Course Button

@@ -27,7 +27,7 @@ public final class R {
         public static final int action_settings=0x7f08001a;
         public static final int addAssnBtn=0x7f080004;
         public static final int addCourseBtn=0x7f080019;
-        public static final int addExamBtm=0x7f080006;
+        public static final int addExamBtn=0x7f080006;
         public static final int addProjectBtn=0x7f080007;
         public static final int addQuizBtn=0x7f080005;
         public static final int confirmPasswordEdit=0x7f080014;
