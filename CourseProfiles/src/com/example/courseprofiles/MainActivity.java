@@ -52,8 +52,11 @@ public class MainActivity extends Activity {
 				// TODO Auto-generated method stub
 				
 				//Intent starts RegistrationActivity.java
-				Intent startRegistration = new Intent(MainActivity.this, RegistrationActivity.class);
-				startActivity(startRegistration);
+				//Intent startRegistration = new Intent(MainActivity.this, RegistrationActivity.class);
+				//startActivity(startRegistration);
+				
+				Intent intent = new Intent(MainActivity.this, RegisterActivity.class);
+		        startActivity(intent);
 				
 			}
 		});
